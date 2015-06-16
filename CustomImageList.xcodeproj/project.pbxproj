@@ -15,6 +15,11 @@
 		60F051BE1B2E759100806079 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F051BD1B2E759100806079 /* Images.xcassets */; };
 		60F051C11B2E759100806079 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F051BF1B2E759100806079 /* LaunchScreen.xib */; };
 		60F051CD1B2E759100806079 /* CustomImageListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F051CC1B2E759100806079 /* CustomImageListTests.m */; };
+		60F051D81B2E763400806079 /* CustomImageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F051D71B2E763400806079 /* CustomImageList.m */; };
+		60F051E71B2E9B9100806079 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60F051D91B2E9B9100806079 /* 0.jpg */; };
+		60F051E81B2E9B9100806079 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60F051DA1B2E9B9100806079 /* 1.jpg */; };
+		60F051F01B2E9B9100806079 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60F051E21B2E9B9100806079 /* 10.jpg */; };
+		60F051F31B2E9B9100806079 /* 15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60F051E51B2E9B9100806079 /* 15.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,12 @@
 		60F051C61B2E759100806079 /* CustomImageListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomImageListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F051CB1B2E759100806079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60F051CC1B2E759100806079 /* CustomImageListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomImageListTests.m; sourceTree = "<group>"; };
+		60F051D61B2E763400806079 /* CustomImageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImageList.h; sourceTree = "<group>"; };
+		60F051D71B2E763400806079 /* CustomImageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImageList.m; sourceTree = "<group>"; };
+		60F051D91B2E9B9100806079 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		60F051DA1B2E9B9100806079 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		60F051E21B2E9B9100806079 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		60F051E51B2E9B9100806079 /* 15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 15.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,10 @@
 		60F051AC1B2E759100806079 /* CustomImageList */ = {
 			isa = PBXGroup;
 			children = (
+				60F051D91B2E9B9100806079 /* 0.jpg */,
+				60F051DA1B2E9B9100806079 /* 1.jpg */,
+				60F051E21B2E9B9100806079 /* 10.jpg */,
+				60F051E51B2E9B9100806079 /* 15.jpg */,
 				60F051B11B2E759100806079 /* AppDelegate.h */,
 				60F051B21B2E759100806079 /* AppDelegate.m */,
 				60F051B71B2E759100806079 /* ViewController.h */,
@@ -92,6 +107,8 @@
 				60F051BF1B2E759100806079 /* LaunchScreen.xib */,
 				60F051B41B2E759100806079 /* CustomImageList.xcdatamodeld */,
 				60F051AD1B2E759100806079 /* Supporting Files */,
+				60F051D61B2E763400806079 /* CustomImageList.h */,
+				60F051D71B2E763400806079 /* CustomImageList.m */,
 			);
 			path = CustomImageList;
 			sourceTree = "<group>";
@@ -171,6 +188,7 @@
 				TargetAttributes = {
 					60F051A91B2E759100806079 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = FBH8QE45BN;
 					};
 					60F051C51B2E759100806079 = {
 						CreatedOnToolsVersion = 6.1;
@@ -202,9 +220,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F051F01B2E9B9100806079 /* 10.jpg in Resources */,
+				60F051E71B2E9B9100806079 /* 0.jpg in Resources */,
 				60F051BC1B2E759100806079 /* Main.storyboard in Resources */,
+				60F051F31B2E9B9100806079 /* 15.jpg in Resources */,
 				60F051C11B2E759100806079 /* LaunchScreen.xib in Resources */,
 				60F051BE1B2E759100806079 /* Images.xcassets in Resources */,
+				60F051E81B2E9B9100806079 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60F051D81B2E763400806079 /* CustomImageList.m in Sources */,
 				60F051B61B2E759100806079 /* CustomImageList.xcdatamodeld in Sources */,
 				60F051B31B2E759100806079 /* AppDelegate.m in Sources */,
 				60F051B91B2E759100806079 /* ViewController.m in Sources */,
@@ -347,7 +370,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CustomImageList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +382,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CustomImageList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
